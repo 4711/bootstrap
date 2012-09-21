@@ -41,13 +41,7 @@ Ordered Lists
 1. Item 2
    1. Item 2a
    1. Item 2b
-   1. Item 2a
-   1. Item 2b
-   1. Item 2a
-   1. Item 2b
-   1. Item 2a
-   1. Item 2b
-
+   
 Code Blocks
 
 Use 4 spaces indentation:
@@ -55,3 +49,19 @@ Use 4 spaces indentation:
     function identity(x) {
       return x;
     }
+    
+    
+   ![Setup Github Application](http://f.cl.ly/items/011W1c0D2N1I0B3m0731/Screen%20Shot%202012-05-31%20at%203.33.15%20PM.png)
+
+3. Setup Gatekeeper.
+
+   Follow the instructions here and fill in the information that is provided after registering a new Github Application.
+
+4. Adjust `_config.yml`.
+		auto: true
+        server: true
+       	oauth_client_id: your_oauth_client_id
+       	gatekeeper_url: http://gatekeeper.example.com
+       	exclude:
+       - .gitignore
+       - README.md    
