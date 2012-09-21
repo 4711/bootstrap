@@ -1,8 +1,7 @@
 ---
-layout: default
+layout: article
 published: false
 ---
-
 
 # Header 1
 # Header 1
@@ -11,7 +10,7 @@ published: false
 
 Text Annotations
 
-    *This text will be emphasized.*
+*This text will be emphasized.*
 **This text will be strong.**
 Inline `code` in typewriter style
 
@@ -56,5 +55,3 @@ Use 4 spaces indentation:
     function identity(x) {
       return x;
     }
-
-
