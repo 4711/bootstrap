@@ -20,7 +20,8 @@ Links
 
 Images
 
-![Alt text](/images/logo.png)
+ * image 1 ![Alt](http://management.fela.ch/fileadmin/Fela/Products/producticons_switchpanel.png)
+ * image 2 ![Alt](http://management.fela.ch/fileadmin/Fela/Products/producticons_switchpanel.png)
 
 Blockquotes
 
@@ -64,4 +65,4 @@ Use 4 spaces indentation:
        	gatekeeper_url: http://gatekeeper.example.com
        	exclude:
        - .gitignore
-       - README.md    
+       - README.md
